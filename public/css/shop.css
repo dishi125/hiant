@@ -1,0 +1,142 @@
+@font-face {
+    font-family: weddingFont;
+    src: url(KyoboHandwriting2020pdy.ttf);
+}
+
+:root {
+    --primary-bg-color: #f4f1ee;
+    --primary-color: #bf8362;
+    --secondary-color: #dab396;
+    --footer-bg-color: #efe8e3;
+    --font-size: 16px;
+    --account-width: 290px;
+    --notice-margin-lr: 2rem;
+    --calendar-margin-lr: 2rem;
+    --waytocome-margin-lr: 2rem;
+    --guestbook-margin-lr: 2rem;
+    --font-regular: weddingFont;
+    --font-regular-spacing: -0.8px;
+    /* --font-gothic: Pretendard-Regular; */
+    --font-gothic: weddingFont;
+    --font-gothic-spacing: -0.2px;
+    --font-bold: weddingFont;
+    --font-bold-weight: bold;
+}
+
+
+body {
+    background: #313131;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.shop-view {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    padding: 0;
+    margin: auto;
+    background: var(--primary-bg-color);
+    line-height: 2rem;
+    font-family: var(--font-regular), serif;
+    letter-spacing: var(--font-regular-spacing);
+}
+
+.shop-main-image{
+    max-width: 70%;
+    margin: auto;
+    position: relative;
+}
+.shop-main-image img{
+    width: 100%;
+    height: 300px;
+}
+
+
+.slick-dots {
+    margin: 0 auto 0;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-dots li
+{
+    position: relative;
+    display: inline-block;
+    margin: 0 2px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button
+{
+    display: inline-block;
+    content: "";
+    margin: 3px;
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: #ccc;
+    padding: 7px;
+    color: transparent;
+    border: 0;
+    outline: none;
+}
+
+.slick-dots li.slick-active button
+{
+    background: #e6a79d;
+}
+
+.shop-heading{
+    padding-top: 30px;
+}
+.shop-heading h1{
+    font-size: 28px;
+    font-weight: 600;
+}
+.shop-heading h4{
+    font-size: 20px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-link{
+    color: #212529;
+    font-size: 20px;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    border: none;
+    background: transparent;
+    padding-bottom: 0;
+    border-bottom: solid 2px;
+}
+
+.shop-count-info{
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    display: flex;
+}
+
+.shop-count-info span{
+    display: block;
+}

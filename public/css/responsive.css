@@ -1,0 +1,81 @@
+@media (max-width: 767.98px) {
+    .main-sidebar {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .main-content {
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 11px;
+    }
+
+    .section .section-header h1 {
+        font-size: 16px;
+    }
+
+    .responsive-button-block{
+        justify-content: unset !important;
+        width: 50%;
+    }
+    .responsive-button-block [type="button"]{
+        font-size: 10px;
+        padding: 0px 10px;
+    }
+
+    div.dataTables_wrapper div.dataTables_filter input {
+        width: 80%;
+    }
+
+    table th, table td {
+        font-size: 10px;
+    }
+
+    div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+        justify-content: flex-start;
+    }
+
+    .text-white{
+        padding-bottom: 10px;
+    }
+
+    body.sidebar-gone .main-sidebar {
+        left: -270px;
+    }
+
+    .dataTables_wrapper {
+        overflow: hidden;
+    }
+    .dataTables_wrapper > .row:nth-child(2) {
+        overflow: auto;
+    }
+
+    .pagination {
+        display: block;
+    }
+
+    .page-item .page-link {
+        margin-bottom: 5px;
+        background-color: #dddddd85;
+    }
+
+    .coin_info{
+        text-align: left !important;
+    }
+
+    .reload_coin_log{
+        margin-left: 0 !important;
+    }
+
+    .business_buttons > a {
+        padding: 2px 8px;
+    }
+    .buttons .btn {
+        margin: 0 2px;
+    }
+
+    .nav-pills .nav-item .nav-link {
+        padding: 3px 8px;
+    }
+}
